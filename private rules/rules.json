@@ -37,7 +37,7 @@
       },
       {
         "name": "GoogleEarth",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth"
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
       },
       {
         "name": "GoogleFCM",
@@ -116,18 +116,6 @@
         "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
       },
       {
-        "name": "ChinaIp",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaIp.list"
-      },
-      {
-        "name": "ChinaDomain",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaDomain.list"
-      },
-      {
-        "name": "ChinaCompanyIp",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/hinaCompanyIp.list"
-      },
-      {
         "name": "Download",
         "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list"
       },
@@ -137,7 +125,7 @@
       },
       {
         "name": "Xbox",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xobx.list"
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list"
       }
     ]
   },
@@ -146,12 +134,12 @@
     "type": "list",
     "links": [
       {
-        "name": "GoogleGemini",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleGemini.list"
+        "name": "Gemini",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash//Ruleset/Gemini.list"
       },
       {
-        "name": "Gemini",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Gemini.list"
+        "name": "Open ai",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
       }
     ]
   },
@@ -165,7 +153,7 @@
       },
       {
         "name": "BanProgramAD",
-        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list.list"
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
       },
       {
         "name": "BanEasyList",
