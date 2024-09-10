@@ -44,8 +44,8 @@ jobs:
         git config user.email "huangzhenmsn@hotmail.com"
 
         # 添加并提交新的规则
-        git add rule/AI.list
-        git commit -m "例行更新 AI.list" || echo "No changes to commit"  # 如果没有更改则跳过提交
+        git add rule
+        git commit -m "例行更新" || echo "No changes to commit"  # 如果没有更改则跳过提交
 
         # 拉取最新的改动
         git pull origin master --rebase
