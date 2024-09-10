@@ -23,7 +23,7 @@ jobs:
     # 第四步：运行 parse_markdown.py 脚本
     - name: Run main.py
       run: |
-        python "Private Rules/main.py"  # 执行脚本
+        python "private rules/main.py"  # 执行脚本
   
 
     # 第四步，将更新推送到你的仓库
