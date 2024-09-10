@@ -26,6 +26,7 @@ jobs:
     # 安装依赖
     - name: install requests
       run: |
+        cd my-repo/private\ rules # 切换到正确的目录
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
