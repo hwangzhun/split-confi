@@ -13,6 +13,9 @@ jobs:
     # 拉取你的仓库代码
     - name: Checkout My Repo
       uses: actions/checkout@v3
+      with:
+        repository: hwangzhun/split-config
+        path: my-repo
 
     # 设置 Python 环境
     - name: Set up Python
