@@ -21,39 +21,34 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4  # 使用官方的 Python 设置 action
       with:
-        python-version: '3.12.4'  # 选择合适的 Python 版本
+        python-version: '3.12.x'  # 选择合适的 Python 版本
 
-    # 安装 依赖
+    # 安装依赖
     - name: install requests
       run: |
         python -m pip install --upgrade pip
         pip install requests
-
+    
     # 运行 main.py 脚本
     - name: Run main.py
       run: |
-        python "private rules/main.py"  # 执行脚本
+        cd my-repo/private\ rules # 切换到正确的目录
+        python main.py  # 执行脚本
   
 
-    # 将更新推送到你的仓库
+    # 提交并推送更改
     - name: Commit and Push Changes
       run: |
         cd my-repo
         git config user.name "GitHub Action"
         git config user.email "huangzhenmsn@hotmail.com"
-    
-        # 暂存当前更改
-        git stash
-    
-        # 拉取远程仓库的最新改动并自动处理冲突
-        git pull origin master --rebase
-    
-        # 恢复暂存的更改
-        git stash pop
-    
+
         # 添加并提交新的规则
         git add rule/AI.list
-        git commit -m "例行更新 AI.list"
-    
+        git commit -m "例行更新 AI.list" || echo "No changes to commit"  # 如果没有更改则跳过提交
+
+        # 拉取最新的改动
+        git pull origin master --rebase
+
         # 推送更改到远程仓库
         git push origin master
