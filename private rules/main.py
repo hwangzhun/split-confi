@@ -68,7 +68,7 @@ def load_json(json_file_path):
 # 配置请求重试策略
 def requests_retry_session(
     retries=3,  # 重试次数
-    backoff_factor=0.3,  # 指数退避因子 (重试间隔的倍数)
+    backoff_factor=1,  # 指数退避因子 (重试间隔的倍数)
     status_forcelist=(500, 502, 504),  # 针对哪些状态码重试
     session=None,
 ):
