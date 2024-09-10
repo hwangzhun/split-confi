@@ -1,0 +1,50 @@
+# name: Sync AI Application Rule incremental update
+name: 增量更新
+
+# 定义定时任务，每天凌晨2点运行（你可以根据需要调整时间）
+on:
+  workflow_dispatch:  # 允许通过 GitHub 页面手动触发工作流
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 第一步，拉取你的仓库代码
+    - name: Checkout My Repo
+      uses: actions/checkout@v3
+
+    # 第二步：设置 Python 环境
+    - name: Set up Python
+      uses: actions/setup-python@v4  # 使用官方的 Python 设置 action
+      with:
+        python-version: '3.12.4'  # 选择合适的 Python 版本
+
+    # 第四步：运行 parse_markdown.py 脚本
+    - name: Run main.py
+      run: |
+        python "Private Rules/main.py"  # 执行脚本
+  
+
+    # 第四步，将更新推送到你的仓库
+    - name: Commit and Push Changes
+      run: |
+        cd my-repo
+        git config user.name "GitHub Action"
+        git config user.email "huangzhenmsn@hotmail.com"
+    
+        # 暂存当前更改
+        git stash
+    
+        # 拉取远程仓库的最新改动并自动处理冲突
+        git pull origin master --rebase
+    
+        # 恢复暂存的更改
+        git stash pop
+    
+        # 添加并提交新的规则
+        git add rule/AI.list
+        git commit -m "例行更新 AI.list"
+    
+        # 推送更改到远程仓库
+        git push origin master

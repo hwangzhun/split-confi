@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Microsoft Service",
+    "type": "list",
+    "links": [
+      {
+        "name": "Bing",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bing.list"
+      },
+      {
+        "name": "OneDrive",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+      },
+      {
+        "name": "Microsoft",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+      }
+    ]
+  },
+  {
+    "name": "Apple Service",
+    "type": "list",
+    "links": [
+      {
+        "name": "Bing",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
+      }
+    ]
+  },
+  {
+    "name": "Google Service",
+    "type": "list",
+    "links": [
+      {
+        "name": "Google",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+      },
+      {
+        "name": "GoogleEarth",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth"
+      },
+      {
+        "name": "GoogleFCM",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+      }
+    ]
+  },
+  {
+    "name": "Local direct",
+    "type": "list",
+    "links": [
+      {
+        "name": "LocalAreaNetwork",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+      },
+      {
+        "name": "UnBan.list",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
+      },
+      {
+        "name": "GoogleCN",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      },
+      {
+        "name": "SteamCN",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+      },
+      {
+        "name": "GoogleCN",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      },
+      {
+        "name": "ChinaIp",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+      },
+      {
+        "name": "ChinaDomain",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+      },
+      {
+        "name": "ChinaCompanyIp",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+      },
+      {
+        "name": "Download.list",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+      },
+      {
+        "name": "GameDownload.list",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+      }
+    ]
+  },
+  {
+    "name": "Game",
+    "type": "list",
+    "links": [
+      {
+        "name": "Epic",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
+      },
+      {
+        "name": "Origin",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
+      },
+      {
+        "name": "Sony",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
+      },
+      {
+        "name": "Steam",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
+      },
+      {
+        "name": "Nintendo",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
+      },
+      {
+        "name": "ChinaIp",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaIp.list"
+      },
+      {
+        "name": "ChinaDomain",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaDomain.list"
+      },
+      {
+        "name": "ChinaCompanyIp",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/hinaCompanyIp.list"
+      },
+      {
+        "name": "Download",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list"
+      },
+      {
+        "name": "GameDownload",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+      },
+      {
+        "name": "Xbox",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xobx.list"
+      }
+    ]
+  },
+  {
+    "name": "AI Application",
+    "type": "list",
+    "links": [
+      {
+        "name": "GoogleGemini",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleGemini.list"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Gemini.list"
+      }
+    ]
+  },
+  {
+    "name": "BlockAD",
+    "type": "list",
+    "links": [
+      {
+        "name": "BanAD",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+      },
+      {
+        "name": "BanProgramAD",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list.list"
+      },
+      {
+        "name": "BanEasyList",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
+      },
+      {
+        "name": "BanEasyListChina",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+      },
+      {
+        "name": "BanEasyPrivacy",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
+      }
+    ]
+  }
+]
