@@ -44,7 +44,7 @@ jobs:
         git config user.email "huangzhenmsn@hotmail.com"
 
         # 添加并提交新的规则
-        git add rule
+        git add rules
         git commit -m "例行更新" || echo "No changes to commit"  # 如果没有更改则跳过提交
 
         # 拉取最新的改动
