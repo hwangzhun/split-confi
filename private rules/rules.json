@@ -1,6 +1,6 @@
 [
   {
-    "name": "Microsoft Service",
+    "name": "Microsoft_Service",
     "type": "list",
     "links": [
       {
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "Apple Service",
+    "name": "Apple_Service",
     "type": "list",
     "links": [
       {
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "name": "Google Service",
+    "name": "Google_Service",
     "type": "list",
     "links": [
       {
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "name": "Local direct",
+    "name": "Local_Direct",
     "type": "list",
     "links": [
       {
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "name": "AI Application",
+    "name": "AI_Application",
     "type": "list",
     "links": [
       {
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "name": "BlockAD",
+    "name": "Block_AD",
     "type": "list",
     "links": [
       {
